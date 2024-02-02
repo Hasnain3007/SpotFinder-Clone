@@ -5,6 +5,21 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ff0000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff;
+  }
+  
 
 /* header start from here */
 
