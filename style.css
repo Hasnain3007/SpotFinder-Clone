@@ -161,6 +161,7 @@ header li:hover {
     padding-left: 40px;
     background-image: url(./img/location-dot-solid.svg);
     background-repeat: no-repeat;
+    background-position: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -180,6 +181,8 @@ header li:hover {
     padding-left: 35px;
     background-image: url(./img/car-solid.svg);
     background-repeat: no-repeat;
+    background-position: left;
+    background-position: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
