@@ -593,17 +593,21 @@ header li:hover {
 
 @media(max-width:450px) {
     .section5 {
-        width: 450px;
+
+        width: 400px;
         height: 200px;
+        margin: auto;
+    }
+
+    .userstar {
         margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 350px;
+        margin: auto;
     }
 
     .feedback {
-        margin: 0px;
-        /* padding: 10px; */
+        box-sizing: border-box;
+        padding: 10px;
         height: 190px;
         width: 400px;
 
@@ -740,7 +744,8 @@ header li:hover {
         margin: 0;
         font-size: 40px;
     }
-    .email input{
+
+    .email input {
         display: inline;
         width: 300px;
         padding-left: 20px;
@@ -828,15 +833,17 @@ footer {
     position: fixed;
     cursor: pointer;
 }
+
 @media(max-width:450px) {
-    .foot{
+    .foot {
         /* margin: 10px; */
         display: flex;
         flex-direction: column;
         height: 680px;
         padding: 10px;
     }
-    .details{
+
+    .details {
         margin-bottom: 10px;
     }
 }
